@@ -86,7 +86,6 @@ function showResult() {
         total + (answer === quizData[index].correctAnswer ? 1 : 0),
       0,
     );
-    quizDiv.style.display = "none";
     resultDiv.style.display = "block";
     retakeBtn.style.display = "inline-block";
     resultDiv.textContent = `Your score: ${score} out of ${quizData.length}. You ${score >= (1 / 2) * quizData.length ? "passed" : "failed"}!`;
