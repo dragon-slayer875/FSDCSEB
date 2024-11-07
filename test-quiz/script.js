@@ -124,6 +124,7 @@ function resetQuiz() {
   currentQuestion = 0;
   userAnswers = new Array(quizData.length).fill(-1);
   quizDiv.style.display = "block";
+  nextBtn.style.cursor = "pointer";
   resultDiv.style.display = "none";
   retakeBtn.style.display = "none";
   loadQuestion();
