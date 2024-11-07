@@ -65,7 +65,7 @@ function loadQuestion() {
   nextBtn.disabled = true;
   submitBtn.disabled = true;
   if (currentQuestion === quizData.length - 1) {
-    nextBtn.style.display = "none";
+    nextBtn.style.cursor = "not-allowed";
     submitBtn.style.display = "inline-block";
   } else {
     nextBtn.style.display = "inline-block";

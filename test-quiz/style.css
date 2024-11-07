@@ -54,10 +54,34 @@ button {
   transition: background-color 0.3s;
   box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
 }
-button:hover {
-  background-color: #2980b9;
+#next-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
 }
-button:disabled {
+#submit-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+button:hover,
+#next-btn:hover,
+#submit-btn:hover {
+  background-color: black;
+}
+button:disabled,
+#next-btn:disabled,
+#submit-btn:disabled {
   background-color: #bdc3c7;
   cursor: not-allowed;
 }
