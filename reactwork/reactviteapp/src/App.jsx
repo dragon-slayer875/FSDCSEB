@@ -1,27 +1,14 @@
-import React from 'react'
-import Student from './Student';
-import UseStudentState from './UseStudentState';
-import Imagemanipulation from './Imagemanipulation';
+import React from "react";
+import Imagemanipulation from "./Imagemanipulation";
 function App() {
-  const h1=<h1>Hello World</h1>;
- const mystyle={
-  color:'red',
-  backgroundColor:'yellow'
- }
-
-
- 
-  return (
-    <div>
-   <h2>Hello Using useSatte Hook</h2>
+ return (
   <div>
-    {/* <UseStudentState /> */}
+   <h2>Hello Using useState Hook</h2>
+   <div>
     <Imagemanipulation />
-   
+   </div>
   </div>
-    </div>
-      
-  )
+ );
 }
 
-export default App
+export default App;
